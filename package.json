@@ -1,0 +1,21 @@
+{
+  "name": "shopifyworkflow",
+  "version": "1.0.0",
+  "scripts": {
+    "download": "theme download --env=development",
+    "updload": "theme deploy --env=development",
+    "watch": "theme watch --env=development",
+    "open": "theme open --env=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scalater/shopify-work-flow.git"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}

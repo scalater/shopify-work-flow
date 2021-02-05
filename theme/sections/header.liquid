@@ -16,6 +16,10 @@
 
 {% include 'search-drawer' %}
 
+<div class="test-class">
+  <h3>Other test</h3>
+</div>
+
 <div data-section-id="{{ section.id }}" data-section-type="header-section" data-header-section>
   {% if section.settings.message %}
     {% if section.settings.home_page_only == false or request.page_type == 'index' %}
